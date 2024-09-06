@@ -22,7 +22,7 @@ const Navbar = () => {
               <a href="#">Approach</a>
               <a href="#">Portfolio</a>
               <a href="#">Contact</a>
-              <button className='btn'>Let's Talk Business</button>
+              <button className='btn'>{`Let's Talk Business`}</button>
             </nav>
           </div>
         </div>
