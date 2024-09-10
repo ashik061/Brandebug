@@ -7,7 +7,7 @@ import { FaCheck, FaRocket } from 'react-icons/fa6'
 const About = () => {
 
     return (
-        <section className='bg-bg-1 pt-10 pb-20'>
+        <section className='bg-bg-1 py-16'>
             <div className='container'>
                 <div className='text-center'>
                     <h4 className='text-text-2/80 font-medium text-2xl tracking-tighter'>Looking for a partner who understands your business goals and brand vision?</h4>
