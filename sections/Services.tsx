@@ -53,17 +53,17 @@ const Services = () => {
     return (
         <section className='bg-bg-2 py-16'>
             <div className='container'>
-                <h2 className="text-text-1 text-center text-3xl font-bold mb-4 capitalize">We offer all the <span className='text-primary'>Services</span> that a complete website may need</h2>
-                <p className="text-text-2/80 text-center text-md mb-10">From smooth designs and compelling content to robust functionalities, we'll build a website that sets you apart</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <h2 className='text-text-1 text-center text-3xl font-bold mb-4 capitalize'>We offer all the <span className='text-primary'>Services</span> that a complete website may need</h2>
+                <p className='text-text-2/80 text-center text-md mb-10'>From smooth designs and compelling content to robust functionalities, we'll build a website that sets you apart</p>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
                     {servicesData.map((service, index) => (
-                        <div key={index} className="service-card bg-transparent p-4 rounded-3xl shadow-xl">
+                        <div key={index} className='service-card bg-transparent p-4 rounded-3xl shadow-xl'>
                             <div className="flex flex-col items-center gap-5 mb-2">
-                                <div className="bg-primary rounded-2xl p-4 mr-4">
+                                <div className="bg-primary rounded-2xl p-4">
                                     <div className="text-bg-1">{service.icon}</div>
                                 </div>
-                                    <h3 className="text-xl text-text-1 text-center font-bold">{service.title}</h3>
-                                    <p className="text-text-2/80 text-center text-sm">{service.description}</p>
+                                    <h3 className='text-xl text-text-1 text-center font-bold'>{service.title}</h3>
+                                    <p className='text-text-2/80 text-center text-sm'>{service.description}</p>
                                 </div>
 
                             </div>

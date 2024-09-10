@@ -33,9 +33,9 @@ const About = () => {
                         <Image src={ClientImage} alt='Team Image' className='mt-6 lg:mt-1 hidden lg:block' />
                     </div>
                     <div className='lg:w-3/5'>
-                        <p className='text-sm text-text-2/70 mt-8 text-justify'>We're a dynamic team, with a blend of business acumen and technical expertise, committed to delivering solutions that not only enhance your brand but also drive tangible results. At Brandebug, we believe in building long-lasting partnerships based on honesty, trust, transparency, and a shared vision for success.</p>
+                        <p className='text-sm text-text-2/80 mt-8 text-justify'>We're a dynamic team, with a blend of business acumen and technical expertise, committed to delivering solutions that not only enhance your brand but also drive tangible results. At Brandebug, we believe in building long-lasting partnerships based on honesty, trust, transparency, and a shared vision for success.</p>
                         <Image src={ClientImage} alt='Team Image' className='my-8 h-80 lg:hidden' />
-                        <h3 className='text-2xl text-text-1 font-semibold my-4'>Why Choose Us</h3>
+                        <h3 className='text-2xl text-text-1 font-semibold my-6'>Why Choose Us</h3>
                         <ul>
                             <li className='flex items-center gap-2 text-text-2/70 mb-3 text-sm'><FaRocket className='h-6 w-6 text-primary stroke-6' /> As a young, innovative team, our fresh perspective and innovative approach can deliver exceptional results.</li>
                             <li className='flex items-center gap-2 text-text-2/70 text-sm mb-3'><FaRocket className='h-5 w-5 text-primary stroke-6' /> We leverage the latest technology and tools to create cutting-edge digital solutions.</li>
