@@ -18,10 +18,10 @@ const Navbar = () => {
             </div>
             <FaBars className='h-7 w-7 lg:hidden' />
             <nav className='hidden lg:flex gap-10 items-center text-text-1/80 font-semibold'>
+              <a href="#">About</a>
               <a href="#">Services</a>
               <a href="#">Approach</a>
               <a href="#">Portfolio</a>
-              <a href="#">Contact</a>
               <button className='btn'>{`Let's Talk Business`}</button>
             </nav>
           </div>
