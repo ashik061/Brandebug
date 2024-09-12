@@ -1,6 +1,6 @@
 import React from 'react'
-import LogoIcon from '@/assets/images/Logo_icon_no_bg.png'
 import LogoText from '@/assets/images/Logo_text_no_bg.png'
+import LogoIconGif from '@/assets/images/Logo-icon-gif.gif'
 import Image from 'next/image'
 import { FaBars } from 'react-icons/fa6'
 
@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className='container'>
           <div className='flex items-center justify-between'>
             <div className='flex items-center'>
-              <Image src={LogoIcon} alt='Logo' height={40} width={40} />
+              <Image src={LogoIconGif} alt='Logo' height={50} width={50} />
               <Image src={LogoText} alt='Logo' height={40} width={200} />
             </div>
             <FaBars className='h-7 w-7 lg:hidden' />
