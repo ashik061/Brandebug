@@ -70,7 +70,7 @@ const ServicePricing = () => {
                 <p className='text-text-2/80 text-center text-md mb-10'>
                     * Prices and development time can vary based on project complexity.
                 </p>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-4'>
                     {pricingData.map((plan, index) => (
                         <div key={index} className='pricing-card bg-bg-1 px-8 py-6 rounded-3xl shadow-lg shadow-primary'>
                             <div className="flex flex-col items-center gap-5 mb-2">
@@ -100,10 +100,7 @@ const ServicePricing = () => {
                         </div>
                     ))}
                 </div>
-                {/* <p className='text-text-2/80 text-center text-md mt-16'>For a personalized quote tailored to your specific needs, please contact us for a free consultation</p>
-                <div className='flex justify-center items-center mt-4'>
-                    <button className='btn text-md'>Schedule Free Consultation</button>
-                </div> */}
+                
             </div>
         </section>
     )

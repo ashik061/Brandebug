@@ -14,6 +14,7 @@ const Home = () => {
       <About />
       <Services />
       <ServicePricing />
+      <ContractApproach />
     </>
   )
 }
