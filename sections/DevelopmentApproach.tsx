@@ -43,8 +43,8 @@ const DevelopmentApproach = () => {
                     {approachData.map((step, index) => (
                         <div key={index} className='bg-bg-1 p-2 rounded-3xl border-primary border-2 shadow shadow-primary hover:border-none hover:shadow-md hover:shadow-primary'>
                             <div className="flex items-center gap-5">
-                                <div className="bg-primary rounded-2xl p-2 m-2">
-                                    <div className="text-bg-1">{step.icon}</div>
+                                <div className="border-4 border-primary rounded-2xl p-2 m-2">
+                                    <div className="text-primary">{step.icon}</div>
                                 </div>
                                 <div>
                                     <h3 className='text-xl text-text-1 text-start font-bold mb-2'>{step.title}</h3>
