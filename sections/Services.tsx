@@ -57,7 +57,7 @@ const Services = () => {
                 <p className='text-text-2/80 text-center text-md mb-10'>From smooth designs and compelling content to robust functionalities, we'll build a website that sets you apart</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
                     {servicesData.map((service, index) => (
-                        <div key={index} className='service-card bg-transparent p-4 rounded-3xl shadow-xl'>
+                        <div key={index} className='bg-transparent p-4 rounded-3xl shadow-xl hover:border-2 hover:border-primary hover:shadow hover:shadow-primary'>
                             <div className="flex flex-col items-center gap-5 mb-2">
                                 <div className="bg-primary rounded-2xl p-4">
                                     <div className="text-bg-1">{service.icon}</div>

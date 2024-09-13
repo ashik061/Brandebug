@@ -5,6 +5,7 @@ import About from '@/sections/About'
 import Services from '@/sections/Services'
 import ServicePricing from '@/sections/ServicePricing'
 import ContractApproach from '@/sections/ContractApproach'
+import DevelopmentApproach from '@/sections/DevelopmentApproach'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Services />
       <ServicePricing />
       <ContractApproach />
+      <DevelopmentApproach />
     </>
   )
 }
