@@ -12,7 +12,7 @@ const ContractApproach = () => {
             <div className='container'>
                 <h2 className='text-text-1 text-center text-3xl font-bold mb-8 capitalize'>Your dream website as easy as…</h2>
                 <div className='flex flex-col lg:flex-row items-center justify-center gap-4 mb-6'>
-                    <div className="flex flex-col items-center gap-3 mb-6">
+                    <div className="flex flex-col items-center gap-3 mb-6 p-6 rounded-3xl hover:shadow-2xl">
                         <div className="p-2">
                             <Image src={BusinessMeeting} alt='Business-meeting' className='h-28 w-auto p-2' />
                         </div>
@@ -20,7 +20,7 @@ const ContractApproach = () => {
                         <p className='text-text-2/80 text-center text-sm'>Discuss your project goals, vision, and requirements with our experienced team</p>
                     </div>
                     <FaArrowAltCircleDown className="h-20 w-16 stroke-6 text-primary lg:-rotate-90" />
-                    <div className="flex flex-col items-center gap-3 mb-6">
+                    <div className="flex flex-col items-center gap-3 mb-6 p-6 rounded-3xl hover:shadow-2xl">
                         <div className="p-2">
                             <Image src={WebsitePlan} alt='Website-plan' className='h-28 w-auto p-2' />
                         </div>
@@ -28,7 +28,7 @@ const ContractApproach = () => {
                         <p className='text-text-2/80 text-center text-sm'>Our experts will create a sitemap and project plan, outlining the scope, timeline, and budget</p>
                     </div>
                     <FaArrowAltCircleDown className="h-20 w-16 stroke-6 text-primary lg:-rotate-90" />
-                    <div className="flex flex-col items-center gap-3 mb-6">
+                    <div className="flex flex-col items-center gap-3 mb-6 p-6 rounded-3xl hover:shadow-2xl">
                         <div className="p-2">
                             <Image src={WebsiteDevelopment} alt='Website-development' className='h-28 w-auto p-2' />
                         </div>

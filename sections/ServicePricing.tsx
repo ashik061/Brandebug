@@ -72,7 +72,7 @@ const ServicePricing = () => {
                 </p>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-4'>
                     {pricingData.map((plan, index) => (
-                        <div key={index} className='pricing-card bg-bg-1 px-8 py-6 rounded-3xl shadow-lg shadow-primary'>
+                        <div key={index} className='bg-bg-1 px-8 py-6 rounded-3xl shadow-lg shadow-primary hover:shadow-text-1'>
                             <div className="flex flex-col items-center gap-5 mb-2">
                                 <div className='rounded-2xl p-4'>
                                     {plan.image}

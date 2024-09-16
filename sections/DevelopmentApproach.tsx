@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fa1, Fa2, Fa3, Fa4, Fa5, Fa6 } from 'react-icons/fa6';
 
+
 const DevelopmentApproach = () => {
     const approachData = [
         {
@@ -11,7 +12,7 @@ const DevelopmentApproach = () => {
         {
             icon: <Fa2 className="h-14 w-14 stroke-6" />,
             title: "Content is King",
-            description: "Crafting compelling content for target audiance",
+            description: "Crafting compelling content for target audience",
         },
         {
             icon: <Fa3 className="h-14 w-14 stroke-6" />,
@@ -41,13 +42,13 @@ const DevelopmentApproach = () => {
                 <p className='text-text-2/80 text-center text-md mb-10'>Committed to developing sustainable solutions that not only meet your initial needs but also have the potential to grow and adapt over time.</p>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12'>
                     {approachData.map((step, index) => (
-                        <div key={index} className='bg-bg-1 p-2 rounded-3xl border-primary border-2 shadow shadow-primary hover:border-none hover:shadow-md hover:shadow-primary'>
-                            <div className="flex items-center gap-5">
-                                <div className="border-4 border-primary rounded-2xl p-2 m-2">
-                                    <div className="text-primary">{step.icon}</div>
+                        <div key={index} className='bg-bg-2 p-2 rounded-3xl border-text-1 border-2 shadow shadow-primary hover:border-primary hover:shadow-md hover:shadow-primary'>
+                            <div className="flex items-center gap-5 group">
+                                <div className="border-4 border-text-1 group-hover:border-primary rounded-2xl p-2 m-2">
+                                    <div className="text-primary group-hover:text-text-1">{step.icon}</div>
                                 </div>
                                 <div>
-                                    <h3 className='text-xl text-text-1 text-start font-bold mb-2'>{step.title}</h3>
+                                    <h3 className='text-xl text-text-1 group-hover:text-primary text-start font-bold mb-2'>{step.title}</h3>
                                     <p className='text-text-2/80 text-start text-sm'>{step.description}</p>
                                 </div>
                             </div>
