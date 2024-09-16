@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className='container'>
           <div className='flex items-center justify-between'>
             <div className='flex items-center'>
-              <Image src={LogoIconGif} alt='Logo' height={50} width={50} />
+              <Image src={LogoIconGif} alt='Logo' height={58} width={58} />
               <Image src={LogoText} alt='Logo' height={40} width={200} />
             </div>
             <FaBars className='h-7 w-7 lg:hidden' />
