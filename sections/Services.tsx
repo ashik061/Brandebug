@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaPalette, FaNewspaper, FaMobileAlt , FaCaretSquareUp, FaLaptopCode, FaAddressCard, FaSearchengin, FaChartBar, FaLayerGroup } from 'react-icons/fa';
+import { FaPalette, FaNewspaper, FaMobileAlt, FaCaretSquareUp, FaLaptopCode, FaAddressCard, FaSearchengin, FaChartBar, FaLayerGroup } from 'react-icons/fa';
 
 const Services = () => {
     const servicesData = [
@@ -62,11 +62,11 @@ const Services = () => {
                                 <div className="bg-primary group-hover:border-2 group-hover:border-text-1 rounded-2xl p-4">
                                     <div className="text-text-1/90">{service.icon}</div>
                                 </div>
-                                    <h3 className='text-xl text-text-1 text-center font-bold'>{service.title}</h3>
-                                    <p className='text-text-2/80 text-center text-sm'>{service.description}</p>
-                                </div>
-
+                                <h3 className='text-xl text-text-1 text-center font-bold'>{service.title}</h3>
+                                <p className='text-text-2/80 text-center text-sm'>{service.description}</p>
                             </div>
+
+                        </div>
                     ))}
                 </div>
             </div>

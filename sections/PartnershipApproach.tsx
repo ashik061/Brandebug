@@ -48,7 +48,7 @@ const PartnershipApproach = () => {
                                     <p className='text-text-1/80 text-center text-sm mt-4'>{model.benefits}</p>
                                 </div>
                                 <div className="flex items-center justify-between gap-8 mt-4">
-                                    <button className='btn2 text-md w-40'>{model.buttonText}</button>
+                                    <button className='btn2 text-md tracking-normal w-40'>{model.buttonText}</button>
 
                                 </div>
                             </div>

@@ -42,7 +42,7 @@ const Portfolio = () => {
                 </p>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 mb-4'>
                     {projectsData.map((project, index) => (
-                        <div key={index} className='relative rounded-2xl shadow-md shadow-primary overflow-hidden flex group'>
+                        <div key={index} className='relative rounded-3xl shadow-md shadow-primary overflow-hidden flex group'>
                             <div className='transition-transform duration-500 ease-in-out transform group-hover:scale-110 '>
                                 {project.image}
                             </div>
@@ -57,6 +57,9 @@ const Portfolio = () => {
                             </div>
                         </div>
                     ))}
+                </div>
+                <div className='flex justify-center items-center mt-16'>
+                    <button className='btn2 w-60 tracking-normal'>View All Projects</button>
                 </div>
 
             </div>

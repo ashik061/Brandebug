@@ -8,6 +8,7 @@ import ContractApproach from '@/sections/ContractApproach'
 import DevelopmentApproach from '@/sections/DevelopmentApproach'
 import PartnershipApproach from '@/sections/PartnershipApproach'
 import Portfolio from '@/sections/Portfolio'
+import Technologies from '@/sections/Technologies'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <DevelopmentApproach />
       <PartnershipApproach />
       <Portfolio />
+      <Technologies />
     </>
   )
 }

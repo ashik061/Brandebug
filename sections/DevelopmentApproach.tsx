@@ -42,9 +42,9 @@ const DevelopmentApproach = () => {
                 <p className='text-text-2/80 text-center text-md mb-10'>Committed to developing sustainable solutions that not only meet your initial needs but also have the potential to grow and adapt over time.</p>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12'>
                     {approachData.map((step, index) => (
-                        <div key={index} className='bg-bg-2 p-2 rounded-3xl border-text-1 border-2 shadow shadow-primary hover:border-primary hover:shadow-md hover:shadow-primary'>
+                        <div key={index} className='bg-bg-2 p-2 rounded-2xl border-text-1 border-2 shadow shadow-primary hover:border-primary hover:shadow-md hover:shadow-primary'>
                             <div className="flex items-center gap-5 group">
-                                <div className="border-4 border-text-1 group-hover:border-primary rounded-2xl p-2 m-2">
+                                <div className="border-4 border-text-1 group-hover:border-primary rounded-xl p-2 m-2">
                                     <div className="text-primary group-hover:text-text-1">{step.icon}</div>
                                 </div>
                                 <div>

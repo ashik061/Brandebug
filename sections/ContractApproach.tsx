@@ -19,7 +19,7 @@ const ContractApproach = () => {
                         <h3 className='text-xl text-text-1 text-center font-bold'>Claim a FREE Expert Consultation</h3>
                         <p className='text-text-2/80 text-center text-sm'>Discuss your project goals, vision, and requirements with our experienced team</p>
                     </div>
-                    <FaArrowAltCircleDown className="h-20 w-16 stroke-6 text-primary lg:-rotate-90" />
+                    <FaArrowAltCircleDown className="h-12 w-12 lg:h-20 lg:w-20 stroke-6 text-primary lg:-rotate-90" />
                     <div className="flex flex-col items-center gap-3 mb-6 p-6 rounded-3xl hover:shadow-2xl">
                         <div className="p-2">
                             <Image src={WebsitePlan} alt='Website-plan' className='h-28 w-auto p-2' />
@@ -27,7 +27,7 @@ const ContractApproach = () => {
                         <h3 className='text-xl text-text-1 text-center font-bold'>Conduct a Preliminary Sitemap & Plan</h3>
                         <p className='text-text-2/80 text-center text-sm'>Our experts will create a sitemap and project plan, outlining the scope, timeline, and budget</p>
                     </div>
-                    <FaArrowAltCircleDown className="h-20 w-16 stroke-6 text-primary lg:-rotate-90" />
+                    <FaArrowAltCircleDown className="h-12 w-12 lg:h-20 lg:w-20 stroke-6 text-primary lg:-rotate-90" />
                     <div className="flex flex-col items-center gap-3 mb-6 p-6 rounded-3xl hover:shadow-2xl">
                         <div className="p-2">
                             <Image src={WebsiteDevelopment} alt='Website-development' className='h-28 w-auto p-2' />
@@ -40,7 +40,7 @@ const ContractApproach = () => {
 
                 <p className='text-text-2/80 text-center text-md mt-4'>Anything on your mind? Let's turn ideas into action</p>
                 <div className='flex justify-center items-center mt-4'>
-                    <button className='btn text-md'>Schedule Free Consultation</button>
+                    <button className='btn tracking-normal w-70'>Schedule Free Consultation</button>
                 </div>
             </div>
 
