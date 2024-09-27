@@ -9,6 +9,8 @@ import DevelopmentApproach from '@/sections/DevelopmentApproach'
 import PartnershipApproach from '@/sections/PartnershipApproach'
 import Portfolio from '@/sections/Portfolio'
 import Technologies from '@/sections/Technologies'
+import ActionBanner from '@/sections/ActionBanner'
+import Footer from '@/components/Footer'
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
       <PartnershipApproach />
       <Portfolio />
       <Technologies />
+      <ActionBanner />
+      <Footer />
     </>
   )
 }

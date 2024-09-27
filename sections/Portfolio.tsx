@@ -46,11 +46,11 @@ const Portfolio = () => {
                             <div className='transition-transform duration-500 ease-in-out transform group-hover:scale-110 '>
                                 {project.image}
                             </div>
-                            <div className='absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-bg-1/70 to-text-1/80 flex flex-col justify-center items-center text-center px-16 transition transform duration-500 ease-in-out translate-y-full group-hover:translate-y-0'>
+                            <div className='absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-bg-1/70 to-text-1/80 flex flex-col justify-center items-center text-center px-4 md:px-10 lg:px-16 transition transform duration-500 ease-in-out translate-y-full group-hover:translate-y-0'>
                                 <div className='text-center'>
-                                    <h4 className='text-2xl font-bold text-text-2'>{project.title}</h4>
-                                    <p className='text-md mt-2 text-text-1'>{project.description}</p>
-                                    <Link href={project.link || '#'} target='_blank' className='inline-flex justify-center items-center w-12 h-12 mt-4 rounded-full bg-bg-1 text-primary'>
+                                    <h4 className='text-xl md:text-2xl font-bold text-text-2'>{project.title}</h4>
+                                    <p className='text-sm md:text-md mt-2 text-text-1'>{project.description}</p>
+                                    <Link href={project.link || '#'} target='_blank' className='inline-flex justify-center items-center w-8 h-8 md:w-12 md:h-12 mt-4 rounded-full bg-bg-1 text-primary'>
                                         <FaArrowUpRightFromSquare />
                                     </Link>
                                 </div>
