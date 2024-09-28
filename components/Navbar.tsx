@@ -12,8 +12,8 @@ import Link from 'next/link'
 const Navbar = () => {
   const router = useRouter()
   return (
-    <header className='border-b border-primary sticky top-0 z-50 backdrop-blur-3xl'>
-      <div className='py-4'>
+    <header className='border-b border-primary sticky top-0 z-50 bg-bg-1'>
+      <div className='py-3'>
         <div className='container'>
           <div className='flex items-center justify-between'>
             <Link href={'/'} className='flex items-center'>
