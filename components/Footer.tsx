@@ -24,16 +24,16 @@ const Footer = () => {
             </div>
             <div className='flex flex-col items-center md:items-start gap-4 mt-10'>
               <h4 className='text-bg-1 text-xl'>Quick Links</h4>
-              <Link href={'#'} className='text-bg-1/70 hover:text-bg-2 text-md'>Services</Link>
-              <Link href={'#'} className='text-bg-1/70 hover:text-bg-2 text-md'>Approach</Link>
-              <Link href={'#'} className='text-bg-1/70 hover:text-bg-2 text-md'>Portfolio</Link>
-              <Link href={'#'} className='text-bg-1/70 hover:text-bg-2 text-md'>Contact</Link>
+              <Link href={'/services'} className='text-bg-1/70 hover:text-bg-2 text-md'>Services</Link>
+              <Link href={'/approach'} className='text-bg-1/70 hover:text-bg-2 text-md'>Approach</Link>
+              <Link href={'/portfolio'} className='text-bg-1/70 hover:text-bg-2 text-md'>Portfolio</Link>
+              <Link href={'/contact'} className='text-bg-1/70 hover:text-bg-2 text-md'>Contact</Link>
             </div>
             <div className='flex flex-col items-center md:items-start gap-4 mt-10'>
               <h4 className='text-bg-1 text-xl'>Contact Us</h4>
-              <Link href={'tel:+8801883192614'} target='_blank' className='text-bg-1/70 hover:text-bg-2 text-lg flex gap-3 items-center'><FaPhone /> +8801883192614</Link>
+              <Link href={'tel:+8801883192614'} target='_blank' className='text-bg-1/70 hover:text-bg-2 text-lg flex gap-3 items-center'><FaPhone className='text-md'/> +8801883192614</Link>
               <Link href={'mailto:contact@brandebug.com'} target='_blank' className='text-bg-1/70 hover:text-bg-2 text-lg flex gap-3 items-center'><FaEnvelope className='text-xl' /> contact@brandebug.com</Link>
-              <Link href={'https://maps.app.goo.gl/DDZW97BVvVRi23iJA'} target='_blank' className='text-bg-1/70 hover:text-bg-2 text-md flex gap-3 items-center'><FaLocationDot className='text-2xl' /> House: 47, Road: 10, DIT Project, <br /> Merul Badda, Dhaka-1212</Link>
+              <Link href={'https://maps.app.goo.gl/DDZW97BVvVRi23iJA'} target='_blank' className='text-bg-1/70 hover:text-bg-2 text-md flex gap-3 items-center'><FaLocationDot className='text-xl' /> House: 47, Road: 10, DIT Project, <br /> Merul Badda, Dhaka-1212</Link>
             </div>
           </div>
         </div>
