@@ -33,7 +33,7 @@ const About = () => {
                         <Image src={ClientImage} alt='Team Image' className='mt-6 lg:mt-1 hidden lg:block' />
                     </div>
                     <div className='lg:w-3/5'>
-                        <p className='text-sm text-text-2/80 mt-8 text-justify'>We're a dynamic team, with a blend of business acumen and technical expertise, committed to delivering solutions that not only enhance your brand but also drive tangible results. At Brandebug, we believe in building long-lasting partnerships based on honesty, trust, transparency, and a shared vision for success.</p>
+                        <p className='text-sm text-text-2/80 mt-8 text-justify'>{`We're a dynamic team, with a blend of business acumen and technical expertise, committed to delivering solutions that not only enhance your brand but also drive tangible results. At Brandebug, we believe in building long-lasting partnerships based on honesty, trust, transparency, and a shared vision for success.`}</p>
                         <Image src={ClientImage} alt='Team Image' className='my-8 h-80 lg:hidden' />
                         <h3 className='text-2xl text-text-1 font-semibold my-6'>Why Choose Us</h3>
                         <ul>
