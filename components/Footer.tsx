@@ -17,9 +17,9 @@ const Footer = () => {
               <Image src={LogoText} alt='Logo' height={50} width={250} />
               <Image src={LogoTagLine} alt='Logo' height={30} width={250} />
               <div className='flex gap-4 mt-4'>
-                <Link href={'#'} target='_blank' className='inline-flex justify-center items-center h-10 w-10 border-2 border-primary rounded-full text-2xl text-primary m-2 transition ease-in-out duration-200 hover:bg-primary hover:text-text-1 hover:shadow hover:shadow-primary'><FaFacebook /></Link>
-                <Link href={'#'} target='_blank' className='inline-flex justify-center items-center h-10 w-10 border-2 border-primary rounded-full text-2xl text-primary m-2 transition ease-in-out duration-200 hover:bg-primary hover:text-text-1 hover:shadow hover:shadow-primary'><FaLinkedin /></Link>
-                <Link href={'#'} target='_blank' className='inline-flex justify-center items-center h-10 w-10 border-2 border-primary rounded-full text-2xl text-primary m-2 transition ease-in-out duration-200 hover:bg-primary hover:text-text-1 hover:shadow hover:shadow-primary'><FaXTwitter /></Link>
+                <Link href={'#'} target='_blank' className='links'><FaFacebook /></Link>
+                <Link href={'#'} target='_blank' className='links'><FaLinkedin /></Link>
+                <Link href={'#'} target='_blank' className='links'><FaXTwitter /></Link>
               </div>
             </div>
             <div className='flex flex-col items-center md:items-start gap-4 mt-10'>

@@ -11,6 +11,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   const router = useRouter()
+
   return (
     <header className='border-b border-primary sticky top-0 z-50 bg-bg-1'>
       <div className='py-3'>
