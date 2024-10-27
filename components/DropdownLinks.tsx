@@ -22,13 +22,24 @@ function DropdownLinks({ isOpen, toggleMenu, menuLinks }: Props) {
       <ul
         hidden={!isOpen}
         className="bg-slate-100 z-10 text-text-1/80 absolute right-1 rounded-md shadow-md"
+        // tabIndex={0}
+        onBlur={() => {
+            console.log('Clicked onBlur')
+            toggleMenu()}}
       >
         {menuLinks.map((item) => (
           <li
+          key = {item}
             className={
               item === pathName ? activeClass + normalClass : normalClass
             }
-            onClick={() => router.push(item)}
+            onClick={() => {
+                router.push(item)
+                toggleMenu()
+            }}
+            onBlur={() => {
+                console.log('Clicked onBlur')
+                toggleMenu()}}
           >
             {capitalizeFirstLetter(item)}
           </li>
