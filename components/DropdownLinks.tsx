@@ -45,7 +45,7 @@ function DropdownLinks({ isOpen, toggleMenu, menuLinks }: Props) {
           onClick={() => {
             router.push("/contact");
           }}
-        >Let's Talk Business</button>
+        >{`Let's Talk Business`}</button>
       </ul>
     </div>
   );
