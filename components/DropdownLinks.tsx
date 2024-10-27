@@ -15,9 +15,7 @@ function DropdownLinks({ isOpen, toggleMenu, menuLinks }: Props) {
 
   const activeClass = "text-primary ";
   const normalClass = "px-8 py-2 font-semibold hover:bg-slate-300";
-  //   useEffect(() => {
-  //     toggleMenu();
-  //   }, [isOpen]);
+  
 
   return (
     <div className="relative">

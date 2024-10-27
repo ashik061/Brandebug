@@ -17,7 +17,6 @@ const Navbar = () => {
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
-    console.log(isMobileMenuOpen);
   };
 
   const activeClass = "text-primary scale-110 ";
