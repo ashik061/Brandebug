@@ -1,5 +1,4 @@
-import Link from "next/link";
-import React, { useEffect } from "react";
+import React from "react";
 import { capitalizeFirstLetter } from "../utils/helpers";
 import { usePathname, useRouter } from "next/navigation";
 
@@ -22,9 +21,7 @@ function DropdownLinks({ isOpen, toggleMenu, menuLinks }: Props) {
       <ul
         hidden={!isOpen}
         className="bg-slate-100 z-10 text-text-1/80 absolute right-1 rounded-md shadow-md"
-        // tabIndex={0}
         onBlur={() => {
-            console.log('Clicked onBlur')
             toggleMenu()}}
       >
         {menuLinks.map((item) => (
@@ -38,7 +35,6 @@ function DropdownLinks({ isOpen, toggleMenu, menuLinks }: Props) {
                 toggleMenu()
             }}
             onBlur={() => {
-                console.log('Clicked onBlur')
                 toggleMenu()}}
           >
             {capitalizeFirstLetter(item)}
