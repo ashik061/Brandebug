@@ -1,5 +1,4 @@
-import Link from "next/link";
-import React, { useEffect } from "react";
+import React from "react";
 import { capitalizeFirstLetter } from "../utils/helpers";
 import { usePathname, useRouter } from "next/navigation";
 
@@ -15,22 +14,28 @@ function DropdownLinks({ isOpen, toggleMenu, menuLinks }: Props) {
 
   const activeClass = "text-primary ";
   const normalClass = "px-8 py-2 font-semibold hover:bg-slate-300";
-  //   useEffect(() => {
-  //     toggleMenu();
-  //   }, [isOpen]);
+  
 
   return (
     <div className="relative">
       <ul
         hidden={!isOpen}
         className="bg-slate-100 z-10 text-text-1/80 absolute right-1 rounded-md shadow-md"
+        onBlur={() => {
+            toggleMenu()}}
       >
         {menuLinks.map((item) => (
           <li
+          key = {item}
             className={
               item === pathName ? activeClass + normalClass : normalClass
             }
-            onClick={() => router.push(item)}
+            onClick={() => {
+                router.push(item)
+                toggleMenu()
+            }}
+            onBlur={() => {
+                toggleMenu()}}
           >
             {capitalizeFirstLetter(item)}
           </li>
@@ -40,7 +45,7 @@ function DropdownLinks({ isOpen, toggleMenu, menuLinks }: Props) {
           onClick={() => {
             router.push("/contact");
           }}
-        >Let's Talk Business</button>
+        >{`Let's Talk Business`}</button>
       </ul>
     </div>
   );
