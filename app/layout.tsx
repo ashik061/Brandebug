@@ -14,8 +14,8 @@ config.autoAddCss = false
 const poppins = Poppins({ subsets: ["latin"], weight: '600' })
 
 export const metadata: Metadata = {
-  title: "BrandDebug Inc.",
-  description: "Creating your Brands",
+  title: "NIZUT Technologies LTD.",
+  description: "Building scalable web & app solutions",
   icons: {
     icon: '/favicon.png'
   }

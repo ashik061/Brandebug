@@ -27,8 +27,12 @@ const ActionBanner = () => {
                     </Link>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center sm:gap-6 md:gap-0 md:px-20 lg:px-60'>
+                <Link href="/contact#meeting">
                     <button className='btn w-60'>Schedule Free Consultation</button>
+                </Link>
+                <Link href="/contact">
                     <button className='btn w-60 tracking-normal'>Get Quote</button>
+                </Link>
                 </div>
             </div>
 

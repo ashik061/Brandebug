@@ -1,36 +1,36 @@
 import React from 'react'
-import ScholarConnect from '@/assets/images/scholar-connect.png'
-import GameHub from '@/assets/images/game-hub.png'
-import SkillShoot from '@/assets/images/skill-shoot.png'
-import PortfolioWebsite from '@/assets/images/portfolio-website.png'
+import UserMeta from '@/assets/images/project1.png'
+import FitFinder from '@/assets/images/project2.png'
+import LMES from '@/assets/images/project3.png'
+import IoTproject from '@/assets/images/project4.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6'
 const Portfolio = () => {
     const projectsData = [
         {
-            image: <Image src={ScholarConnect} alt='Scholar-connect-website' />,
-            title: "Scholar Connect",
-            description: "A platform connecting aspiring students with PhD and MS mentors abroad.",
-            link: "https://scholarconnect.pages.dev/"
+            image: <Image src={UserMeta} alt='UserMeta-website' />,
+            title: "UserMeta Pro",
+            description: "Revitalized User Meta Pro plugin through strategic web design, ux design and digital marketing; driving sales growth.",
+            link: "https://user-meta.com"
         },
         {
-            image: <Image src={GameHub} alt='Game-hub-website' />,
-            title: "Game Hub",
-            description: "A dynamic platform for exploring and discovering the best video games across genres.",
-            link: "https://game-hub-peach-pi.vercel.app/"
+            image: <Image src={FitFinder} alt='FitFinder-website' />,
+            title: "FitFinder Web App",
+            description: "A platform that enable users to explore fitness destinations, connect with peers, and achieve their fitness goals.",
+            link: "https://github.com/ashik061/FitFinder"
         },
         {
-            image: <Image src={SkillShoot} alt='Skill-shoot-website' />,
-            title: "Skill Shoot",
-            description: "A platform dedicated to enhance skills through expert-led educational materials.",
-            link: "https://web-appick.vercel.app/"
+            image: <Image src={LMES} alt='LMES-mobile-app' />,
+            title: "LMES - Lab Monitoring and Evaluation System",
+            description: "Led the development of LMES in collaboration with the Office of District Administration, Cumilla, a real-time lab monitoring system deployed in 50 schools, improving lab management efficiency.",
+            link: "https://docs.google.com/presentation/d/1a9GofadIhFmDPnc-nps-VWVJZ8-iKZfD7zYofp3iSR8/edit#slide=id.p"
         },
         {
-            image: <Image src={PortfolioWebsite} alt='Portfolio-website' />,
-            title: "Portfolio Website",
-            description: "The website presents a clear and concise portfolio showcasing services, projects, etc.",
-            link: "https://ashik18710.pages.dev/"
+            image: <Image src={IoTproject} alt='IoT-research-overview' />,
+            title: "Design and Implementation of a Feasible Model for the IoT Based Ubiquitous Healthcare Monitoring System for Rural and Urban Area",
+            description: "The proposed system can transmit sensitive health data to caregivers in real-time, whether online or offline.",
+            link: "https://ieeexplore.ieee.org/document/9869637"
         }
     ]
     return (

@@ -17,7 +17,7 @@ const Contact = () => {
 
     return (
         <>
-            <section className='bg-bg-2 py-16'>
+            <section className='bg-bg-2 py-16' id='meeting'>
                 <div className='container'>
                     <h2 className='text-text-1/90 text-center text-3xl font-bold capitalize'>Book Now and Start with a No-Cost Consultation</h2>
                     <div className="calendly-inline-widget"

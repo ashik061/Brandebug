@@ -3,6 +3,8 @@ import React from 'react'
 import HeroImage from '@/assets/images/hero.svg'
 import Image from 'next/image'
 import TypedText from '@/components/TypedText'
+import Link from 'next/link'
+
 
 const Hero = () => {
   return (
@@ -15,8 +17,12 @@ const Hero = () => {
             <TypedText />
             <p className='text-sm text-text-1/80 tracking-tight mt-5 mb-2'>{`Let's Get Started on Your Dream Project`}</p>
             <div className='flex gap-3 items-center mt-4'>
+            <Link href="/contact#meeting">
               <button className='btn text-sm md:text-xl'>Schedule Free Consultation</button>
+            </Link> 
+            <Link href="/contact"> 
               <button className='btn2 text-sm md:text-xl'>Get Quote</button>
+            </Link>  
             </div>
           </div>
           <div className='lg:w-2/5'>

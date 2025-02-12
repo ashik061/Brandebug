@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import LogoText from "@/assets/images/Logo_text_no_bg.png";
-import LogoIconGif from "@/assets/images/Logo-icon-gif.gif";
+import LogoText from "@/assets/images/logo-black-font.png";
+import LogoIcon from "@/assets/images/icon.png";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa6";
 import Link from "next/link";
@@ -30,8 +30,8 @@ const Navbar = () => {
         <div className="container">
           <div className="flex items-center justify-between">
             <Link href={"/"} className="flex items-center">
-              <Image src={LogoIconGif} alt="Logo" height={58} width={58} />
-              <Image src={LogoText} alt="Logo" height={40} width={200} />
+              <Image src={LogoIcon} alt="Logo" height={40} width={40} />
+              <Image src={LogoText} alt="Logo" height={40} width={120} className="ml-3"/>
             </Link>
             <div>
               <FaBars

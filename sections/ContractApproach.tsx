@@ -4,6 +4,7 @@ import WebsitePlan from '@/assets/images/website-plan.svg'
 import WebsiteDevelopment from '@/assets/images/website-development.svg'
 import Image from 'next/image';
 import { FaArrowAltCircleDown } from 'react-icons/fa';
+import Link from 'next/link';
 
 
 const ContractApproach = () => {
@@ -40,7 +41,9 @@ const ContractApproach = () => {
 
                 <p className='text-text-2/80 text-center text-md mt-4'>Anything on your mind? Let's turn ideas into action</p>
                 <div className='flex justify-center items-center mt-4'>
-                    <button className='btn tracking-normal w-70'>Schedule Free Consultation</button>
+                    <Link href="/contact#meeting">
+                        <button className='btn tracking-normal w-70'>Schedule Free Consultation</button>
+                    </Link>
                 </div>
             </div>
 
