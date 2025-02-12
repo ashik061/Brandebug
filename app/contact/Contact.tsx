@@ -1,6 +1,6 @@
 'use client'
 import { useEffect } from 'react';
-import LogoText from '@/assets/images/Logo_text_no_bg.png'
+import LogoText from '@/assets/images/logo-color-font.png'
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaPhone, FaEnvelope, FaLocationDot, FaFacebook, FaLinkedin, FaXTwitter, FaAngleUp } from 'react-icons/fa6'
@@ -32,7 +32,7 @@ const Contact = () => {
                         <div className='w-full md:w-2/4 lg:w-2/5 flex flex-col items-center justify-center md:items-start gap-4 mt-10 bg-bg-2 p-10 rounded-3xl shadow shadow-primary'>
                             <Image src={LogoText} alt='Logo' height={40} width={200} />
                             <Link href={'tel:+8801883192614'} target='_blank' className='text-text-1/80 hover:text-text-1 text-lg flex gap-3 items-center mt-4'><FaPhone className='text-md' /> +8801883192614</Link>
-                            <Link href={'mailto:contact@brandebug.com'} target='_blank' className='text-text-1/80 hover:text-text-1 text-lg flex gap-3 items-center'><FaEnvelope className='text-xl' /> contact@brandebug.com</Link>
+                            <Link href={'mailto:contact@nizut.com'} target='_blank' className='text-text-1/80 hover:text-text-1 text-lg flex gap-3 items-center'><FaEnvelope className='text-xl' /> contact@nizut.com</Link>
                             <Link href={'https://maps.app.goo.gl/DDZW97BVvVRi23iJA'} target='_blank' className='text-text-1/80 hover:text-text-1 text-md flex gap-3 items-center'><FaLocationDot className='text-xl' /> House: 47, Road: 10, DIT Project, <br /> Merul Badda, Dhaka-1212</Link>
                             <div className='flex gap-2 mt-4 justify-start'>
                                 <Link href={'#'} target='_blank' className='inline-flex justify-center items-center h-10 w-10 border-2 border-primary rounded-full text-2xl text-primary m-2 transition ease-in-out duration-200 hover:bg-primary hover:text-text-1 hover:shadow hover:shadow-primary'><FaFacebook /></Link>
